@@ -1,0 +1,41 @@
+{
+  "name": "mooch-calc",
+  "version": "1.0.0",
+  "description": "Convert days to Mooches",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/mooch-calc.git"
+  },
+  "keywords": [
+    "mooch",
+    "convert",
+    "calculate",
+    "calculator"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/mooch-calc/issues"
+  },
+  "homepage": "https://github.com/gakimball/mooch-calc#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "execa": "^0.10.0",
+    "mocha": "^3.2.0",
+    "xo": "^0.18.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "meow": "^4.0.0"
+  }
+}
